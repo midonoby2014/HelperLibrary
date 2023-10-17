@@ -65,25 +65,3 @@ dependencies {
     debugImplementation libs.ui.tooling
     debugImplementation libs.ui.test.manifest
 }
-
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            release(MavenPublication) {
-//                from components.release
-//
-//                groupId = 'com.github.philipplackner'
-//                artifactId = 'image-preview-compose'
-//                version = '1.0'
-//            }
-//        }
-//    }
-//}
-
-//plugins {
-//    id 'com.android.library' // Android Library Plugin
-//    id 'kotlin-android' // Kotlin Plugin
-//
-//    // Add the maven-publish plugin
-//    id 'maven-publish'
-//}
